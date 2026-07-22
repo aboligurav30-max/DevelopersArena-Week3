@@ -1,0 +1,91 @@
+# Sales Data Analysis Report
+
+## Project Objective
+
+The objective of this project is to analyze a sales dataset using Python and the Pandas library. The project demonstrates loading, exploring, cleaning, and analyzing real-world sales data.
+
+---
+
+## Dataset Information
+
+- Total Records: 100
+- Total Columns: 7
+
+Columns:
+
+- Date
+- Product
+- Quantity
+- Price
+- Customer_ID
+- Region
+- Total_Sales
+
+---
+
+## Data Cleaning
+
+The following preprocessing steps were performed:
+
+- Checked for missing values.
+- Filled missing Quantity values (if any).
+- Removed duplicate records.
+
+Result:
+
+- Missing Values Found: **0**
+- Duplicate Records Removed: **0**
+
+---
+
+## Analysis Performed
+
+The following metrics were calculated:
+
+- Total Revenue
+- Highest Sale
+- Lowest Sale
+- Average Sale
+- Best Selling Product
+- Product-wise Revenue
+
+---
+
+## Results
+
+| Metric | Value |
+|---------|--------|
+| Total Revenue | ₹12,365,048.00 |
+| Highest Sale | ₹373,932.00 |
+| Lowest Sale | ₹6,540.00 |
+| Average Sale | ₹123,650.48 |
+| Best Selling Product | Laptop |
+
+---
+
+## Product-wise Revenue
+
+| Product | Revenue |
+|----------|-----------:|
+| Laptop | ₹3,889,210 |
+| Tablet | ₹2,884,340 |
+| Phone | ₹2,859,394 |
+| Headphones | ₹1,384,033 |
+| Monitor | ₹1,348,071 |
+
+---
+
+## Key Findings
+
+- The dataset contains **100 sales records**.
+- No missing values were found.
+- No duplicate records were found.
+- Laptop is the best-selling product.
+- Total revenue generated is **₹12,365,048.00**.
+- The average sales value per transaction is **₹123,650.48**.
+
+---
+
+## Conclusion
+
+This project demonstrates the basic concepts of data analysis using Pandas. It includes loading CSV files, exploring data, cleaning datasets, calculating business metrics, and generating meaningful insights through Python.
